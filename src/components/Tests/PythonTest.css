@@ -1,0 +1,32 @@
+.test-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Занимает всю высоту экрана */
+  }
+  
+  .back-button {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    padding: 10px 20px;
+  }
+  
+  /* Стили для вопросов и ответов */
+  .question-container {
+    text-align: center;
+    margin: auto;
+  }
+  
+  .options button {
+    margin: 10px;
+    padding: 10px 20px;
+    display: block; /* Каждый вариант ответа на новой строке */
+  }
+  
+  .result-container {
+    font-size: 24px;
+    font-weight: bold;
+  }
